@@ -2,6 +2,7 @@ $(document).ready(function(){
 	console.log("http://www.satheesh1997.ml loaded successfully");
 	$(".preloader").fadeOut(2000);
 	setInterval("color_name()",1000);
+	$(".img-satheesh").effect( "pulsate", {times:5}, 3000 );
 });
 
 function load_profile(){
@@ -21,6 +22,7 @@ function load_home(){
 var color = 0; //0->white 1->yellow 2->red
 
 function color_name(){
+	$(".satheesh-kumar").effect('shake', {times:3}, 500);
 	if(color == 0){
 		$(".menu-links").css('color','white');
 		$(".satheesh").css('color','orange');
