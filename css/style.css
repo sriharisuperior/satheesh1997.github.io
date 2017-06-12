@@ -15,12 +15,13 @@
 
 body{
 	font-family: sans-serif;
-	background:grey;
+	background:black;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	transition: 1s all ease;
+	color: white;
 }
 
 a:hover{
@@ -43,10 +44,66 @@ a:hover{
 .preloader > i{
 	position: relative;
 	top:37vh;
-	color: white;
+	color: yellow;
 }
 
-h2{
+.preloader > h5{
+	position: relative;
+	top: 50vh;
+	font-size: 20px;
+	color: red;
+}
+
+h1,h2,h3,h4,h5{
 	color: white;
 	font-weight: bold;
+}
+
+.satheesh-kumar{
+	font-size: 32px;
+}
+
+.container-fluid{
+	margin-top: 10px;
+	padding: 0px;
+}
+
+.img-satheesh{
+	width: 250px;
+	height: 250px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.menu-links{
+	margin-top: 50px;
+	word-spacing: 80px;
+	line-height: 50px;
+}
+
+#profile:hover{
+	cursor: pointer;
+}
+
+#home:hover{
+	cursor: pointer;
+}
+
+.details{
+	margin-top:70px;
+}
+
+.fa-close{
+	font-size: 30px;
+	position: fixed;
+	top: 0;
+	right: 10px;
+	transition: .9s all ease;
+	z-index: 9990;
+}
+
+.fa-close:hover{
+	color: yellow;
+	cursor: pointer;
+	transition: .9s color ease;
 }
