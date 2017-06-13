@@ -22,7 +22,7 @@ body{
 	background-attachment: fixed;
 	transition: 1s all ease;
 	color: white;
-	overflow-x:hidden;
+	overflow-x: hidden;
 }
 
 a:hover{
@@ -31,7 +31,7 @@ a:hover{
 
 .preloader{
 	position: absolute;
-	transition: 1s all ease;
+	transition: .5s all ease;
 	background:black;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -74,6 +74,7 @@ h1,h2,h3,h4,h5{
 	height: 250px;
 	margin-top: 30px;
 	margin-bottom: 30px;
+	transition: 0s all ease;
 }
 
 .menu-links{
@@ -91,7 +92,7 @@ h1,h2,h3,h4,h5{
 }
 
 .details{
-	margin-top:70px;
+	margin-top:50px;
 }
 
 .fa-close{
@@ -107,4 +108,17 @@ h1,h2,h3,h4,h5{
 	color: yellow;
 	cursor: pointer;
 	transition: .9s color ease;
+}
+
+.water_mark{
+	padding: 30px;
+}
+
+th{
+	color: yellow;
+	font-size: 15px;
+}
+
+h3.text-left{
+	color: cyan;
 }
